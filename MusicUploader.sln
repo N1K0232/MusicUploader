@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicUploader", "src\MusicUploader\MusicUploader.csproj", "{4151D36B-C804-4C21-A736-90CECF7CD203}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicUploader.BusinessLayer", "src\MusicUploader.BusinessLayer\MusicUploader.BusinessLayer.csproj", "{E26B8621-8E0D-489F-A7D5-336759AFC1A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicUploader.DataAccessLayer", "src\MusicUploader.DataAccessLayer\MusicUploader.DataAccessLayer.csproj", "{398D5516-E99B-4BE5-B6C2-AE4259A36989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicUploader.Shared", "src\MusicUploader.Shared\MusicUploader.Shared.csproj", "{B5BB1D9E-A1BA-4D2F-9DC0-8D1450A19045}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MusicUploader.Database", "src\MusicUploader.Database\MusicUploader.Database.sqlproj", "{B050AEDE-CAD6-407E-AB54-5760B5029012}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A6CB99B6-514C-4453-9230-07A0518628AB}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4151D36B-C804-4C21-A736-90CECF7CD203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4151D36B-C804-4C21-A736-90CECF7CD203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4151D36B-C804-4C21-A736-90CECF7CD203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4151D36B-C804-4C21-A736-90CECF7CD203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E26B8621-8E0D-489F-A7D5-336759AFC1A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E26B8621-8E0D-489F-A7D5-336759AFC1A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E26B8621-8E0D-489F-A7D5-336759AFC1A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E26B8621-8E0D-489F-A7D5-336759AFC1A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{398D5516-E99B-4BE5-B6C2-AE4259A36989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398D5516-E99B-4BE5-B6C2-AE4259A36989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398D5516-E99B-4BE5-B6C2-AE4259A36989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{398D5516-E99B-4BE5-B6C2-AE4259A36989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5BB1D9E-A1BA-4D2F-9DC0-8D1450A19045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5BB1D9E-A1BA-4D2F-9DC0-8D1450A19045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5BB1D9E-A1BA-4D2F-9DC0-8D1450A19045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5BB1D9E-A1BA-4D2F-9DC0-8D1450A19045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B050AEDE-CAD6-407E-AB54-5760B5029012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B050AEDE-CAD6-407E-AB54-5760B5029012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B050AEDE-CAD6-407E-AB54-5760B5029012}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B050AEDE-CAD6-407E-AB54-5760B5029012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B050AEDE-CAD6-407E-AB54-5760B5029012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B050AEDE-CAD6-407E-AB54-5760B5029012}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03CE2670-F0FB-44A1-9FFA-264BD5D4C404}
+	EndGlobalSection
+EndGlobal
