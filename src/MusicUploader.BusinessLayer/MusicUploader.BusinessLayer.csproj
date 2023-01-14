@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -17,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MusicUploader.DataAccessLayer\MusicUploader.DataAccessLayer.csproj" />
     <ProjectReference Include="..\MusicUploader.Shared\MusicUploader.Shared.csproj" />
+    <ProjectReference Include="..\MusicUploader.StorageProviders\MusicUploader.StorageProviders.csproj" />
   </ItemGroup>
 
 </Project>
